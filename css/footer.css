@@ -1,0 +1,34 @@
+.wrapper-footer-wrapper {
+    background: #000000;
+    padding-top: 43px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 200px;
+    color: #86868B;
+}
+
+.footer-paragraph {
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    column-gap: 18px;
+    color: #86868B;
+
+}
+
+ .footer-links{
+ color: #86868B;
+
+}
+
+.footer-network {
+   display: flex;
+   column-gap: 36px;
+   align-items: center;
+   justify-content: center;
+   padding-left: 243px;
+}

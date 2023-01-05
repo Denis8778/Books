@@ -1,0 +1,33 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./navbar.css";
+@import "./footer.css";
+
+:root {
+    --paragraph-blue: #4F68FF;
+    --paragraph-grey: #8D8F9A;
+}
+
+html {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    background: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 16px;
+    max-width: 1072px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 390px) {
+    .container {
+        max-width: 374px;
+    }
+}
