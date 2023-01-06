@@ -255,6 +255,7 @@
 
 .wrapper-vector-wrapper {
     min-height: 174px;
+
     background-image: url("../../../img/Vector.svg");
     background-color: #ffff;
 }
@@ -366,7 +367,11 @@
     }
 
     .wrapper-vector-wrapper {
-        max-width: 662px;
+        min-height: 80px;
+        background-color: #ffff;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 150% 120%;
     }
 
     .wrapper-footer-wrapper {

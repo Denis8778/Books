@@ -27,6 +27,7 @@ body {
 }
 
 @media (max-width: 390px) {
+
     .container {
         max-width: 374px;
     }
