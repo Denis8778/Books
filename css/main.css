@@ -1,12 +1,10 @@
-@import "./reset.css";
+@import "./variables.css";
 @import "./fonts.css";
+@import "./reset.css";
 @import "./navbar.css";
 @import "./footer.css";
 
-:root {
-    --paragraph-blue: #4F68FF;
-    --paragraph-grey: #8D8F9A;
-}
+
 
 html {
     font-family: Manrope, sans-serif;
@@ -14,10 +12,6 @@ html {
     background: #000;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
 .container {
     padding: 0 16px;
@@ -29,6 +23,6 @@ body {
 @media (max-width: 390px) {
 
     .container {
-        max-width: 374px;
+        max-width: 100%;
     }
 }

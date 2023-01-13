@@ -1,8 +1,14 @@
+.navbar-wrapper {
+    background: #ffff;
+}
+
 .navbar {
     display: flex;
     padding: 32px 100px;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
+    position: sticky;
 }
 
 .navbar-menu {
@@ -67,7 +73,7 @@
 
     .navbar-network {
         display: flex;
-        position: fixed;
+        position: sticky;
         bottom: 0;
         padding: 27px;
         column-gap: 34px;
@@ -117,6 +123,7 @@
 
     .side-menu:checked ~ .navbar-menu {
         max-height: 100%;
+        padding-top: 151px
     }
 
     .side-menu:checked ~ .hamb .hamb-line {

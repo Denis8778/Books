@@ -33,3 +33,32 @@
    padding-left: 243px;
 }
 
+@media (max-width: 390px) {
+    .wrapper-footer-wrapper {
+        padding-top: 92px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer-paragraph {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 66px;
+        align-items: center;
+        grid-gap: 18px;
+    }
+
+    .footer-network {
+        display: flex;
+        padding: 0 0 58px 0;
+    }
+
+    img.rotate {
+        rotate: 90deg;
+    }
+}
+
