@@ -47,6 +47,9 @@
     background: #1C0BE0;
     border: 8px solid rgb(255 255 255 / 90%);;
 }
+.hero-img__phone-button img{
+    display: block;
+}
 
 @media (max-width: 390px) {
     .hero-wrapper {

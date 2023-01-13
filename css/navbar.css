@@ -36,6 +36,9 @@
 }
 
 @media (max-width: 390px) {
+    .navbar-wrapper{
+        height: 96px;
+    }
 
     .navbar {
         display: block;
@@ -68,7 +71,7 @@
 
     .navbar-menu {
         max-height: 0;
-        transition: max-height .5s ease-out;
+
     }
 
     .navbar-network {
